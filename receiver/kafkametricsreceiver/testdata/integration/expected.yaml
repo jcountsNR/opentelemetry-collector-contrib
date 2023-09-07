@@ -1,16 +1,1 @@
-resourceMetrics:
-  - resource: {}
-    scopeMetrics:
-      - metrics:
-          - description: "[DEPRECATED] Number of brokers in the cluster."
-            sum:
-              aggregationTemporality: 2
-              dataPoints:
-                - asInt: "1"
-                  startTimeUnixNano: "1685063120199110000"
-                  timeUnixNano: "1685063125236251000"
-            name: kafka.brokers
-            unit: '{brokers}'
-        scope:
-          name: otelcol/kafkametricsreceiver
-          version: latest
+{}
